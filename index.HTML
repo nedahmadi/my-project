@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-image: linear-gradient(to top, #ede7cf 20%, #f3bc77 100%);
+        color: #686354;
+        width: 50%;
+        margin: 70px auto;
+      }
+
+      button {
+        color: black;
+        padding: 15px 15px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px rgb(0, 0, 0, 5);
+      }
+      button:hover {
+        color: #ea7726;
+        cursor: pointer;
+      }
+      h1 {
+        color: #4c3232;
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        font-style: italic;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      ul {
+        text-align: center;
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        display: inline;
+        margin: 0 40px;
+        margin-top: 10px;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 40px;
+      }
+
+      .goli {
+        color: #240747;
+        border: 1px solid#240747;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10;
+        line-break: 2;
+      }
+      .mamali {
+        color: #240747;
+        border: 1px solid#240747;
+        border-radius: 10px;
+
+        margin-bottom: 10;
+        line-break: 2;
+        padding: 10px 20px;
+      }
+      .ned {
+        color: #240747;
+        border: 1px solid#240747;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10;
+        line-break: 2;
+      }
+      .zoy {
+        color: #240747;
+        border: 1px solid#240747;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10;
+        line-break: 2;
+      }
+
+      p {
+        line-height: 2.5;
+        text-align: center;
+        font-size: 20px;
+        text-decoration: solid;
+        color: #436e4f;
+      }
+      .payan {
+        color: darkgreen;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .payan:hover {
+        text-transform: capitalize;
+        text-decoration: underline;
+        color: purple;
+      }
+      .tamom {
+        color: #bd512f;
+      }
+      .tamom:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>
+      <em> Respect your feet </em>
+    </h1>
+    <br />
+
+    <ul>
+      <li>
+        <a
+          href="https://enstock4c.top/products.aspx?cname=trendy+shoes+2021+women%27s&cid=29#"
+          target="_blank"
+          class="goli"
+        >
+          women
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://enstock4c.top/products.aspx?cname=trendy+shoes+2021+women%27s&cid=29#"
+          target="_blank"
+          class="mamali"
+        >
+          men
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://enstock4c.top/products.aspx?cname=trendy+shoes+2021+women%27s&cid=29#"
+          target="_blank"
+          class="ned"
+        >
+          New products
+        </a>
+      </li>
+      <li>
+        <a href="https://enstock4c.top/" target="_blank" class="zoy">
+          About Us
+        </a>
+      </li>
+    </ul>
+
+    <img
+      src="https://namad.agency/wp-content/uploads/2021/06/%D8%AA%D8%B1%D9%81%D9%86%D8%AF-%D8%B9%DA%A9%D8%A7%D8%B3%DB%8C-%D8%AA%D8%A8%D9%84%DB%8C%D8%BA%D8%A7%D8%AA%DB%8C-%DA%A9%D9%81%D8%B4.jpg"
+    />
+
+    <p>
+      “Shoe defines your personality” is an appropriate saying when it comes to
+      your sense in fashion. Today where the trend is an excellent extension in
+      this era, shoe likers are everywhere. What will be the initial thing that
+      comes into your mind when you come forward to purchase a new pair of
+      shoes? Shape, size, color, material, durability, comfort, and, most
+      importantly, the Brands! Yes! Brands are the most vital characteristic of
+      a shoe. A good brand stays longer and makes you feel more confident. Here
+      we are for you with a list of Top 10 best shoe brands in the world highly
+      admired for their highest sales and flourishing quality. Yes! Brands are
+      the most vital characteristic of a shoe. A good brand stays longer and
+      makes you feel more confident. Here we are for you with a list of Top 10
+      best shoe brands in the world highly admired for their highest sales and
+      flourishing quality.
+    </p>
+    <hr />
+    <span class="tamom">
+      <strong> More Info </strong>
+    </span>
+
+    <p>
+      <button>👉BUY Today</button>
+    </p>
+    <div class="payan">This page was built by Neda Ahmadi</div>
+    <script>
+      function shoe() {
+        let name = prompt("what is your name?");
+        let Size = prompt("what is your size?");
+
+        if (Size <= 40) {
+          alert("😀 Great !" + name + " You have many options");
+        } else {
+          alert("😔 Sorry , " + name + " You have just 20 options");
+        }
+      }
+
+      let buytodayButton = document.querySelector("button");
+      buytodayButton.addEventListener("click", shoe);
+    </script>
+  </body>
+</html>
